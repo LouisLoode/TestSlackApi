@@ -1,0 +1,8 @@
+<h1>Connected in <%= team_name %></h1>
+
+<h2>My channels</h2>
+<ul>
+<% channels.forEach(function(channel){ %>
+<li><a href="../channels/<%= channel.id %>/post?token=<%= token %>"><%= channel.name %></a></li>
+<% })%>
+</ul>

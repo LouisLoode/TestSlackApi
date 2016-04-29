@@ -1,0 +1,29 @@
+{
+  "name": "testcalling",
+  "version": "0.1.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/LouisLoode/TestSlackInte.git"
+  },
+  "author": "LouisLoode",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LouisLoode/TestSlackInte/issues"
+  },
+  "homepage": "https://github.com/LouisLoode/TestSlackInte#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "grant": "^3.6.1",
+    "grant-express": "^3.6.1",
+    "jsonfile": "^2.3.0"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "server": {
+    "protocol": "http",
+    "host": "localhost:3000"
+  },
+  "slack": {
+    "key": "38043881765.38053851527",
+    "secret": "733e55afef875c2b116b0af66feb1027",
+    "scope": ["channels:read", "chat:write:user"],
+    "callback": "/handle_callback"
+  }
+}
